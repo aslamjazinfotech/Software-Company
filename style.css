@@ -1,0 +1,191 @@
+body {
+  font-weight: 500;
+  line-height: 1.8;
+  color: #3c3b3b;
+  letter-spacing: 0;
+  font-family: "raleway", serif;
+}
+
+#myvideo {
+  position: absolute;
+  object-fit: cover;
+  width: 99%;
+  z-index: -1;
+  opacity: 0.65;
+  height: 110vh;
+}
+
+.banner-parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 0;
+}
+
+.banner-parent .logo {
+  margin-left: 300px;
+  position: relative;
+  height: 70px;
+}
+
+.banner-parent .nav ul li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.banner-parent a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner-parent a:hover {
+  font-weight: bold;
+}
+
+.banner-parent .button {
+  margin-top: 15px;
+  margin-right: 100px;
+  padding: 10px;
+  background-color: #2878c9;
+  color: white;
+  border-radius: 15px;
+}
+
+.banner-parent .button:hover {
+  color: black;
+  background-color: #b0c21f;
+}
+
+/* .main-banner .banner{
+  width: 100%;
+  height: 95vh;
+  opacity: 0.8;
+  background: url(Videos/3192305-uhd_3840_2160_25fps.mp4);
+  background-size: cover; 
+} */
+/* .main-banner .banner:hover{
+ background-color: #2878c8;
+}  */
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-top: -10%;
+}
+
+.parent {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.parent .banner-content {
+  margin-top: 80px;
+  margin-left: -110px;
+  color: white;
+  padding-right: 80px;
+}
+
+.banner-content img {
+  height: 80px;
+  display: inline-block;
+}
+
+.banner-content button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+}
+
+.banner-content button a {
+  font-size: 14px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.banner-content button:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.banner-content button:hover a {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.parent-card {
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.card {
+  margin-left: 130px;
+  width: 80%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.card-button {
+  padding: 20px;
+  background-color: #b0c21f;
+  border-radius: 10px;
+}
+
+.card-button a {
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.card-button:hover {
+  background-color: #2878c9;
+  color: white;
+}
+
+.card-button:hover a {
+  background-color: transparent;
+  color: white;
+}
+
+.card1 {
+  margin-left: 110px;
+  width: 85%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card2 {
+  padding: 20px;
+  background-color: white;
+  width: 43%;
+  border-radius: 15px;
+}
+
+.card3 {
+  padding: 20px;
+  background-color: white;
+  width: 43%;
+  border-radius: 15px;
+  background-image: url(Images/thinkitive_product_videoBg.992d0fa3.jpg);
+  background-size: cover;
+  background-position: 0%;
+}
+
+span {
+  color: #2878c8;
+}
+
+@media screen and (max-width:768px) {
+  .parent {
+    width: 100%;
+    display: block;
+  }
+}
